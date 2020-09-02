@@ -12,7 +12,7 @@ import com.juliobeani.workshopmongo.repository.UserRepository;
 public class UserService {
 	
 	@Autowired
-	private UserRepository repo;
+	private UserRepository repo; 
 	
 	public List<User> findAll() {
 		return repo.findAll();
